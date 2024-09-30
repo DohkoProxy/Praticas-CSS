@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0px;
+    width: auto;
+}
+body > header{
+    background-color: olivedrab;
+    padding: 16px 120px;
+    color: antiquewhite;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header li{
+    display: inline;
+}
+
+header h1{
+    font-size: 92px;
+}
+
+header li a{
+    color: antiquewhite;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 8px;
+    font-size: 22px;
+}
+header li a:hover{
+    text-decoration: underline;
+}
+.conteiner{
+    width: 1366px;
+    margin: 0 auto 0 auto;
+}
+
+.articles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.articles article img{
+    /* height: 360px;*/
+    width: 100%;
+}
+
+.articles article{
+    width: 45%;
+}
+
+.articles article h3{
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-size: 24px;
+}
+
+.articles article a{
+    background-color: olivedrab;
+    color: white;
+    padding: 4px;
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 6px;
+}
+
+.articles article p,
+.articles article a{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.articles article a:hover{
+    text-decoration: underline;
+}
+
+section {
+    padding: 16px 120px;
+}
+
+section h2{
+    font-size: 42px;
+}
+
+section h2,
+article .articles{
+    margin-bottom: 2px;
+}
+
+section h5{
+    margin-bottom: 32px;
+    margin-top: 0%;
+}
+
+#Esportes {
+    background-color: #f2ffcd;
+}
+
+#Economia {
+    background-color: #fff6c4;
+}
+
+#Economia a{
+    background-color: #fadf49;
+    color: black;
+}
+
+#entretenimento {
+    background-color: rgb(250, 231, 233);
+}
+#entretenimento a{
+    background-color: #d32929;
+}
+
+#tecnologia {
+    background-color: rgb(226, 228, 255);
+}
+#tecnologia a{
+    background-color: rgb(73, 56, 219);
+}
+
+footer{
+    padding: 16px 120px;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: normal;
+    line-height: 26px;
+    margin-bottom: 6px;
+    opacity: .8;
+}
